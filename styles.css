@@ -1,0 +1,118 @@
+:root {
+    --main-color: #333;
+    --second-color: #777;
+    --third-color: rgb(32, 32, 113);
+    --main-font-color: darkorange;
+    --second-font-color: magenta;
+    --third-font-color: cyan;
+    --fourth-font-color: lightgreen;
+  
+  }
+  
+  * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif
+  }
+  
+  nav {
+    background-color: var(--main-font-color);
+    position: fixed;
+    width: 100%;
+    display: block;
+    margin-top: -48px;
+    z-index:1;
+  }
+  
+   nav a {
+    float: right;
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+  }
+  
+  nav a:hover {
+    background-color: var(--third-color);
+    color: var(--second-font-color);
+  }
+  main {
+    
+  }
+   h1 {
+     font-size: 2.5rem;
+   }
+  h2 {
+    font-size: 2.5rem;
+    border-bottom: 0.2rem solid white;
+  }
+  
+  #about {
+    background-color: var(--third-color);
+    height: 100vh;
+    margin-top: 50px;
+    border-top: 5px solid orange;
+    text-align: center;
+    color: white;  
+  }
+  
+  #about-content {
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 33%;
+    transform: translateY(-50%);
+  }
+  
+  #about p {
+    color: var(--main-font-color);
+    font-size: 1.5rem;
+    font-style: oblique;
+  }
+  
+  #work{
+    background-color: var(--main-color);
+    margin-top: -20px;
+    border-top: 5px solid magenta;
+    height: 100vh;
+    border-top: 5px solid orange;
+    text-align: center;
+    color: white;  
+   
+  }
+  
+  #contact{
+    background-color: var(--third-color);
+    height: 100vh;
+    margin-top: -20px;
+     border-top: 5px solid cyan;
+  }
+  
+  footer {
+    background-color: var(--second-color);
+    margin-top: -20px;
+    margin-bottom: -25px;
+    height: 70px;
+    border-top: 5px solid red;
+  }
+  
+  footer a {
+    float: right;
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  
